@@ -7,7 +7,7 @@ public class TestRunner extends TestBase {
     @Test
     public void orderAndCheckoutTest() throws InterruptedException {
         init();
-        goToCategories("//a[@href='/catalog/smartphone']");
+        goToCategories("//a[@href='/catalog/smartphones']");
         selectAndgoToCheckout();
         checkout();
     }
